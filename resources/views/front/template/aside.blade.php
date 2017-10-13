@@ -35,11 +35,9 @@
 
         @foreach($tags as $tag)
             <a href="{{route('front.search.tag',$tag->name)}}">
-            <span class="label label-default">{{$tag->name}}</span>
-
-
-            @endforeach
-
+                <span class="label label-default">{{$tag->name}}</span>
+            </a>
+        @endforeach
     </div>
 </div>
 

@@ -6,7 +6,7 @@
 
 
 
-    <div class="container-fluid">
+    <div class="container">
         <h1 class="title-front text-center">Ultimos Articulos</h1>
         <div class="row">
             <br>
@@ -44,10 +44,12 @@
                             </ul>
                         </div>
 
-                </div>
-            @endforeach
 
-            <div class="col-md-4 aside">
+                </div>
+
+
+            @endforeach
+            <div class="col-md-3  pull-right">
 
                 @include('front.template.aside')
 
@@ -55,13 +57,17 @@
 
         </div>
 
+
+        <div class="text-center">
+
+            {!! $articles->render()!!}
+
+        </div>
+
     </div>
 
-    <div class="text-center">
 
-        {!! $articles->render()!!}
 
-    </div>
 
 
 

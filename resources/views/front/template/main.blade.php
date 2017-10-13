@@ -35,12 +35,7 @@
             </li>
 
             <li>
-                <form class="navbar-form" role="search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Buscar" >
-                        <span class="input-group-addon" id="basic-addon2"><span class="glyphicon glyphicon-search"></span></span>
-                    </div>
-                </form>
+
             </li>
 
         </ul>
