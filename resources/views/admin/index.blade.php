@@ -51,7 +51,7 @@
 
     </table>
 
-    <div class="form-control">
+    <div class="text-center">
 
     {!! $users->render()!!}
 
